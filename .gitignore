@@ -1,0 +1,13 @@
+# Data files
+*.csv
+*.xlsx
+*.mp4
+
+# Python internals
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.venv/
+.DS_Store
