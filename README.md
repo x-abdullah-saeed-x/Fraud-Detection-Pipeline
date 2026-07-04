@@ -39,12 +39,12 @@ Both models are tuned with `GridSearchCV` (5-fold CV, `scoring='roc_auc'`, `n_jo
 
 ## Results
 
-| Model | Best CV ROC-AUC | Test ROC-AUC | Best Params |
+| Model | Best CV ROC-AUC | Best Params |
 |---|---|---|---|
-| Logistic Regression | `FILL IN` | `FILL IN` | `FILL IN` |
-| Random Forest | `FILL IN` | `FILL IN` | `FILL IN` |
+| Logistic Regression | 0.9843 | {'C': 0.1, 'solver': 'lbfgs'} |
+| Random Forest | 0.9959 | {'max_depth': 5, 'min_samples_split': 2, 'n_estimators': 100} |
 
-See `PROJECT_REPORT.md` for full classification reports, ROC curves, and discussion.
+See `FD Report.pdf` for full classification reports, ROC curves, and discussion.
 
 ## Tech Stack
 
